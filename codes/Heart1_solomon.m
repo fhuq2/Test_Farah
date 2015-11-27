@@ -7,6 +7,10 @@ divisions = 35;
 length_whole_segment = 1;
 gauss_per_division = 2;
 
+%% This is a new addition
+x = x + 1
+
+
 % Space is a vector of the endpoints of all the segments
 space = 0:length_whole_segment/divisions:length_whole_segment;
 numberGauss = gauss_per_division*divisions;
