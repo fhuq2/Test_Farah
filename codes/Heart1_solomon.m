@@ -1,4 +1,6 @@
-clear; close all; clc;
+clear; 
+close all; 
+clc;
 % Define variables
 number_cracks = 100;
 divisions = 35;
@@ -81,3 +83,6 @@ nodal_weight = (s1_mod+s2_mod)/number_cracks
 if sum(nodal_weight)-1 < 1e-8
     disp('All points accounted for :)')
 end
+
+stdgw(1)=1/sqrt(3);
+stdgw(2)=-1/sqrt(3);
