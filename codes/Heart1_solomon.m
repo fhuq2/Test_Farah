@@ -84,5 +84,16 @@ if sum(nodal_weight)-1 < 1e-8
     disp('All points accounted for :)')
 end
 
+%%% This is totally wrong!!!!!!!!!!!!!!!!
+%%%======================================
 stdgw(1)=1/sqrt(3);
 stdgw(2)=-1/sqrt(3);
+
+
+
+
+
+
+
+
+
